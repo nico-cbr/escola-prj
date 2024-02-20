@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+  --preto: #000000;
+  --branco-principal: #fff;
+  --azul-claro: #B9F3FC;
+  --azul-medio: #AEE2FF;
+  --azul-escuro: #93C6E7;
+  --rosa-leve: #FEDEFF;
+}
+
+header{
+  height: 50px;
+  background-color: #fff;
+  font-size: 15pt;
+  background-color: var(--azul-claro);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header h1{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+header i {
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+
+
+.container{
+  padding: 15px;
+  width: 100vw;
+  margin: 0 auto;
+  
+}
+
+form{
+  padding: 10px;
+  align-items: center;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+
+  form h2{
+     text-align: center;
+     font-weight: 700;
+     padding: 5px 0;
+     font-size: 25px;
+  }
+
+  form h2 span{
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+.input-box{
+  margin: 2px 4px;
+}
+
+  label {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  input{
+    border-style: none;
+    border-radius: 15px;
+    background-color: var(--azul-medio);
+    width: 100%;
+    height: 35px;
+}
+
+  .btn{
+    background-color: #fff;
+    border-radius: 15px;
+    border-style: none;
+    font-weight: 400;
+    padding: 5px;
+    margin: 15px auto;
+    font-size: 15px;
+    display: grid;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  /* Imagem footer */
+
+  .imagem-footer{
+    width: 20px;
+    height: 30px;
+  }
+  
+  /* Footer/Rodape */
+  
+  .rodape{
+    margin: 5em 3em;
+    text-align: center;
+  }
+
+  .rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+  }
+
+  .rodape_lista a{
+    text-decoration: none;
+    color: var(--preto);
+    margin-left: 1em;
+  }
+
+  .rodape_lista a:hover{
+  color: var(--azul-escuro);/* trocar cor */
+  }
+
+  .lista_link a:active{
+    color:var(--azul-escuro);/* trocar cor */
+  }
