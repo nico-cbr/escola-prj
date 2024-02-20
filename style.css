@@ -11,15 +11,18 @@
   --azul-claro: #B9F3FC;
   --azul-medio: #AEE2FF;
   --azul-escuro: #93C6E7;
-  --rosa-leve: #FEDEFF;
-  --Cor-destacada: #9376E0;
+  --rosa-leve: #B7C9F2;
+  --Cor-destacada: #836FFF;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.808);
 }
 
 header{
   height: 50px;
-  background-color: #fff;
   font-size: 15pt;
-  background-color: var(--Cor-destacada);
+  background-color: #40A2E3;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -27,7 +30,7 @@ header{
 
 header h1{
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 header i {
@@ -82,7 +85,7 @@ form{
     /* botao config */
 
   .btn{
-    background-color: #fff;
+    background-color: var(--Cor-destacada);
     border-radius: 15px;
     border-style: none;
     font-weight: 400;
@@ -91,8 +94,8 @@ form{
     display: grid;
     text-align: left;
     font-size: 20px;
+    transition: 90ms;
   }
-
 
   .btn:hover {
     background-color:var(--Cor-destacada);
@@ -121,8 +124,8 @@ form{
   /* Imagem */
 
   .rodape .rodape_logo{
-    width: 200px;
-    height: 100px;
+    width: 360px;
+    height: 215px;
   }
   
   /* Footer/Rodape */
@@ -145,10 +148,18 @@ form{
     margin-left: 1em;
   }
 
+  .rodape_texto{
+    font-size: 15px;
+  }
+
+  .a{
+    font-size: 18px;
+  }
+
   .rodape_lista a:hover{
-  color: var(--azul-medio);/* trocar cor */
+  color: var(--azul-escuro);/* trocar cor */
   }
 
   .lista_link a:active{
-    color:var(--azul-escuro);/* trocar cor */
+    color:var(--azul-claro);/* trocar cor */
   }
