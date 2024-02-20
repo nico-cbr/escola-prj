@@ -92,17 +92,17 @@ form{
     font-size: 20px;
   }
 
-  /* Imagem footer */
+  /* Imagem */
 
-  .imagem-footer{
-    width: 20px;
-    height: 30px;
+  .rodape .rodape_logo{
+    width: 200px;
+    height: 100px;
   }
   
   /* Footer/Rodape */
   
   .rodape{
-    margin: 5em 3em;
+    margin: 4em 3em;
     text-align: center;
   }
 
