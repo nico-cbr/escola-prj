@@ -13,6 +13,7 @@
   --azul-escuro: #93C6E7;
   --rosa-leve: #B7C9F2;
   --Cor-destacada: #836FFF;
+  --azul-algodão: #40A2E3;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 header{
   height: 50px;
   font-size: 15pt;
-  background-color: #40A2E3;
+  background-color: var(--azul-algodão);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -66,7 +67,7 @@ form{
   }
 
 .input-box{
-  margin: 2px 4px;
+  margin: 10px 5px;
 }
 
   label {
@@ -82,19 +83,19 @@ form{
     height: 35px;
 }
 
-    /* botao config */
+    /* botao configuração */
 
   .btn{
     background-color: var(--Cor-destacada);
+    width: 70%;
     border-radius: 15px;
     border-style: none;
     font-weight: 400;
-    padding: 5px;
-    margin: 15px auto;
+    padding: 10px;
+    margin: 25px auto;
     display: grid;
-    text-align: left;
     font-size: 20px;
-    transition: 90ms;
+    transition: 20ms;
   }
 
   .btn:hover {
@@ -103,22 +104,21 @@ form{
       border-style: none;
       font-weight: 400;
       padding: 5px;
-      margin: 15px auto;
+      margin: 25px auto;
       font-size: 20px;
       display: grid;
-      text-align: left;
+      
   }
 
 .btn:active {
-  background-color: #40A2E3;
+  background-color: var(--azul-algodão);
     border-radius: 15px;
     border-style: none;
     font-weight: 400;
     padding: 5px;
-    margin: 15px auto;
+    margin: 25px auto;
     font-size: 15px;
     display: grid;
-    text-align: left;
 }
 
   /* Imagem */
@@ -154,9 +154,8 @@ form{
 
   .rodape .lista_link a{
     font-size: 18px;
-    color: #40A2E3;
+    color: var(--azul-algodão);
   }
-
 
   .rodape_lista a:hover{
   color: var(--azul-escuro);/* trocar cor */
@@ -165,3 +164,5 @@ form{
   .lista_link a:active{
     color:var(--azul-claro);/* trocar cor */
   }
+
+  
