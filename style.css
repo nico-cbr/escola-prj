@@ -110,7 +110,7 @@ form{
   }
 
 .btn:active {
-  background-color: var(--azul-escuro);
+  background-color: #40A2E3;
     border-radius: 15px;
     border-style: none;
     font-weight: 400;
@@ -133,7 +133,7 @@ form{
   .rodape{
     margin: 2em 1em;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .rodape_lista{
@@ -152,9 +152,11 @@ form{
     font-size: 15px;
   }
 
-  .a{
+  .rodape .lista_link a{
     font-size: 18px;
+    color: #40A2E3;
   }
+
 
   .rodape_lista a:hover{
   color: var(--azul-escuro);/* trocar cor */
